@@ -136,7 +136,6 @@ export default{
       })
     },
     changeKeyColor(id, color){
-      // console.log(`this was called: my letter is ${id} my color is ${color}`)
       document.getElementById(id).classList.add(color);
     },
     showKey(e){
